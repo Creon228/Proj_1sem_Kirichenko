@@ -17,7 +17,7 @@ while type(p) != float: #проверка исключений
         p = input("Введите процент вклада")
 
 vklad = 1000
-mes = 1
+mes = 0
 itog = 0
 
 while itog < 1100 : #цикл, сичтающий месяцы
