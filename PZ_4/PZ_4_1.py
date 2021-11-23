@@ -17,8 +17,7 @@ a = proverka(a)
 b = input("Введите второе значение")
 b = proverka(b)
 summa = a**2
-while a<=b: #нахождение суммы квадратов
+while a<b: #нахождение суммы квадратов
+    a += 1
     summa = summa + a**2
-    a+=1
 print(summa)
-
